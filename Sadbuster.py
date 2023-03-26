@@ -6,6 +6,20 @@ import threading
 from queue import Queue
 from termcolor import colored
 import sys
+print('''
+            ___           ___           ___           ___           ___           ___     
+           /  /\         /__/\         /  /\         /  /\         /  /\         /  /\    
+          /  /:/_        \  \:\       /  /::\       /  /:/_       /  /:/_       /  /::\   
+         /  /:/ /\        \__\:\     /  /:/\:\     /  /:/ /\     /  /:/ /\     /  /:/\:\  
+        /  /:/ /::\   ___ /  /::\   /  /:/~/::\   /  /:/ /:/_   /  /:/ /::\   /  /:/~/::\ 
+       /__/:/ /:/\:\ /__/\  /:/\:\ /__/:/ /:/\:\ /__/:/ /:/ /\ /__/:/ /:/\:\ /__/:/ /:/\:\
+       \  \:\/:/~/:/ \  \:\/:/__\/ \  \:\/:/__\/ \  \:\/:/ /:/ \  \:\/:/~/:/ \  \:\/:/__\/
+        \  \::/ /:/   \  \::/       \  \::/       \  \::/ /:/   \  \::/ /:/   \  \::/     
+         \__\/ /:/     \  \:\        \  \:\        \__\/ /:/     \__\/ /:/     \  \:\     
+           /__/:/       \__\/         \__\/           /__/:/        /__/:/       \__\/     
+           \__\/                                      \__\/         \__\/                  
+
+''')
 # Define command line arguments
 parser = argparse.ArgumentParser(description='SadBuster Directory Brute Forcer')
 parser.add_argument('--url', required=True, help='Target URL')
